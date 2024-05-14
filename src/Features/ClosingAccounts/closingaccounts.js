@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
-import './financialstatement.css';
+import './closingaccounts.css';
 import {useCollection} from '../../hooks/useCollection';
 import { useAuthContext } from '../../hooks/useAuthContext';
 import { type } from '@testing-library/user-event/dist/type';

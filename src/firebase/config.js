@@ -5,13 +5,12 @@ import 'firebase/storage'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBpfaqC0KAv_95cy6bdU87vPp6enOWMLq8",
-  authDomain: "financialaccounting-007.firebaseapp.com",
-  projectId: "financialaccounting-007",
-  storageBucket: "financialaccounting-007.appspot.com",
-  messagingSenderId: "297926347039",
-  appId: "1:297926347039:web:cf1d3fb75ef8a05e6b482a",
-  measurementId: "G-5RHY15KBWZ"
+  apiKey: "AIzaSyCjRJ_tyzDy8F3rTjACR7762jgBKXsvqSU",
+  authDomain: "accounting-lifecycle-react-app.firebaseapp.com",
+  projectId: "accounting-lifecycle-react-app",
+  storageBucket: "accounting-lifecycle-react-app.appspot.com",
+  messagingSenderId: "1039678330787",
+  appId: "1:1039678330787:web:29137aba4ec3be0fa3ec16"
 };
 
 // init firebase
