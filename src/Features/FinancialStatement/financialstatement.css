@@ -1,10 +1,11 @@
-.income-statement{
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  padding: 1rem;
+.income-statement {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 1rem;
 }
-.rev-exp{
+
+.rev-exp {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
@@ -14,10 +15,11 @@
     background: #efefef;
     font-size: 25px;
     font-weight: 600;
-    font-family:'Times New Roman', Times, serif;
+    /* font-family:'Times New Roman', Times, serif; */
 }
-.net-inc{
-    border: 1px solid black;
+
+.net-inc {
+    /* border: 1px solid black; */
     width: 30%;
     display: flex;
     justify-content: space-around;
@@ -27,114 +29,139 @@
     /* background: linear-gradient(to bottom right, #6666ff 0%, #66ccff 100%); */
     background: #efefef;
     font-weight: 600;
-    font-family:'Times New Roman', Times, serif;
+    /* font-family:'Times New Roman', Times, serif; */
 }
-.owner-equity-statement{
+
+.owner-equity-statement {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    align-items: center;
 }
 
-.OE-entries{
+.OE-entries {
     display: flex;
     flex-direction: column;
     font-size: 25px;
     /* background: linear-gradient(to bottom right, #6666ff 0%, #66ccff 100%); */
     background: #efefef;
-    
-    font-family:'Times New Roman', Times, serif;
+    width: 80%;
+    /* font-family:'Times New Roman', Times, serif; */
 }
-.OE-entries h4{
-    font-weight: 50px !important;
+
+.OE-entries h4 {
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
-.OE-entries:last-child{
-    border: 1px solid black;
-    
+
+.OE-entries h4:last-child {
+    /* border: 1px solid black; */
+    border-bottom: 0px solid black;
+
 }
-.balance-sheet{
+
+.balance-sheet {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto auto;
 
 }
-.balance-sheet2{
-    display: grid;
-    width: 100%;
-    grid-template-rows: auto;
-    grid-template-columns: auto auto;
 
-}
-.balance-sheet div{
+.balance-sheet div {
     border: 1px solid black;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.asset-col h2{
+.asset-col h2 {
     /* background: linear-gradient(to right, #6666ff 0%, #66ccff 100%); */
     background: #efefef;
     padding: 1rem;
 }
-.liab-oe-col h2
-{
+
+.liab-oe-col h2 {
     /* background: linear-gradient(to left, #6666ff 0%, #66ccff 100%); */
     background: #efefef;
     padding: 1rem;
 }
-h1
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+h1 {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
-.asset-col h3 , .liab-oe-col h3{
-    border: 1px solid black;
+.asset-col h2,
+.liab-oe-col h2 {
+    border-bottom: 1px solid black;
 }
-.balance
-{
-    font-family: 'Times New Roman', Times, serif;
+
+.asset-col h3,
+.liab-oe-col h3 {
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.asset-col h3:last-child,
+.liab-oe-col h3:last-child {
+    border-bottom: 0px solid black;
+}
+
+.balance {
+    /* font-family: 'Times New Roman', Times, serif; */
     color: black;
-    
+
     /* background: linear-gradient(to left, #6666ff 0%, #66ccff 100%); */
-    background: #efefef;
-    
+    /* background: #efefef; */
+
 
 }
-.balancediv
-{
-    
+
+.balancediv,
+.balance-sheet2 {
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.general-entry-container{
+
+.balancediv h1 {
+    margin-top: 16px;
+
+}
+
+.balance-sheet2 div {
+    width: 80%;
+    border: 1px solid black;
+}
+
+.general-entry-container {
     /* border: 1px solid black; */
     width: 90%;
     padding: 1rem;
-    margin:  0 auto;
-   
-  }
-  
-#fixedheadings
-  {
+    margin: 0 auto;
+
+}
+
+#fixedheadings {
     font-weight: 100px;
     font-size: 40px;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     /* color: white !important; */
-  }
-  
-.general-entry-container h3{
+}
+
+.general-entry-container h3 {
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-weight: 10px;
     font-size: 25px;
     color: black;
-  }
-  
-.entry{
+}
+
+.entry {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
     text-align: center;
     align-items: center;
     box-sizing: border-box;
     background: #efefef;
-  }
+}
