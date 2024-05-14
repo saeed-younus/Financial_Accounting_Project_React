@@ -229,6 +229,7 @@ function FormModal() {
       {debitInput}
       {creditInput}
     </form>
+      <br />
     <div className='submit-error'>
         
           <div className='entry'>
@@ -271,8 +272,8 @@ function FormModal() {
           </div>
         </div>
       </div>
+      <hr/>
     </div>
-    
   )
 }
 

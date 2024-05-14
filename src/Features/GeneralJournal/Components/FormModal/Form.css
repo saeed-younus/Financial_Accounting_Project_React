@@ -1,5 +1,5 @@
 .form-container{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 2rem;
   width: 90%;
   margin: 0 auto;
@@ -15,8 +15,8 @@
 .form {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
-  border: 1px solid black;
+  margin-top: 12px;
+  border-bottom: 1px solid black;
 }
 input,
 select {
@@ -32,7 +32,7 @@ select {
   align-items: center;
   border-radius: 25px;
   font-weight: bold;
-  margin: 1rem 0 0 0;
+  margin: 12px 0 0 0;
 }
 
 .button:hover {
@@ -47,41 +47,46 @@ select {
 .submit-error{
 
  
- border: 1px solid black;
+ /* border: 1px solid black; */
  
- background: linear-gradient(to left, #6666ff 0%, #6699ff 100%);
+ background: linear-gradient(to left, #333 0%, #000 100%);
  
  
  
 }
 .submit-button{
-margin-left: 5rem;
+/* margin-left: 5rem; */
 
 }
 .submit-section
 {
   background: white;
 }
+.submit-section button
+{
+  margin-top: 8px;
+}
 .entry{
   display: flex;
-  background: white;
   text-align: center;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border-bottom: 1px solid white;
+  padding: 8px;
 
+  /* background: linear-gradient(to left, #333 0%, #000 100%); */
   
 }
 .entry label
 {
   font-weight: bold;
   text-align: center;
-  
+  color: black;
 }
 
 .entry div button{
   margin-left: 10px;
-  width: 5rem;
+  width: 60px;
 
 }
 

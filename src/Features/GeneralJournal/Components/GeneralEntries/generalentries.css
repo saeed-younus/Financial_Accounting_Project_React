@@ -1,7 +1,6 @@
 .general-entry-container{
-  margin-top: 10px;
-  border: 1px solid black;
-  width: 100%;
+  /* border: 1px solid black; */
+  width: 90%;
   padding: 1rem;
   margin:  0 auto;
  
@@ -11,12 +10,12 @@
 {
   font-weight: 100px;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white !important;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* color: white !important; */
 }
 
 .general-entry-container h3{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   font-weight: 10px;
   font-size: 25px;
   color: black;
@@ -29,5 +28,5 @@
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  background: linear-gradient(to left, #6666ff 0%, #6699ff 100%);
+  /* background: linear-gradient(to left, #333 0%, #000 100%); */
 }
